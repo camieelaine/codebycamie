@@ -3,6 +3,7 @@
 	let { children } = $props();
 	import Header from '$components/Header.svelte';
 	import Nav from '$components/Nav.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <div>
@@ -13,12 +14,12 @@
 	<main>
 		{@render children()}
 	</main>
-
-	<footer>
+	<Footer />
+	<!-- <footer>
 		<p>
 			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
 		</p>
-	</footer>
+	</footer> -->
 </div>
 
 <style>

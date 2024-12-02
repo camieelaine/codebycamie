@@ -19,11 +19,11 @@
 		<img
 			class="order-1 aspect-square w-32 overflow-hidden rounded-full shadow-xl md:order-2 md:w-[400px]"
 			src="/src/lib/images/CamieSkiingHead.jpeg"
-			alt="Portfolio"
+			alt="CamiePhoto"
 		/>
 	</header>
 
-	<hr class="divider" />
+	<!-- <hr class="divider" /> -->
 
 	<!-- Stats -->
 	<section>
@@ -34,7 +34,9 @@
 			</div>
 			<div class="space-y-1">
 				<span class="font-heading-token text-7xl">8+</span>
-				<p class="text-primary-500">Years Healthcare Clinical Data Workflow and Reporing</p>
+				<p class="text-primary-500">
+					Years Healthcare Clinical Data Workflow, Big Data Analytics and Reporting
+				</p>
 			</div>
 			<div class="space-y-1">
 				<span class="font-heading-token text-7xl">10+</span>
@@ -49,7 +51,7 @@
 		</div>
 	</section>
 
-	<hr class="divider" />
+	<!-- <hr class="divider" /> -->
 
 	<!-- Skills -->
 	<section class="grid grid-cols-1 gap-4 md:grid-cols-3 lg:gap-8">
@@ -83,13 +85,13 @@
 	<hr class="divider" />
 
 	<!-- Call to Action -->
-	<section class="grid grid-cols-1 items-center gap-4 md:grid-cols-[1fr_auto]">
+	<!-- <section class="grid grid-cols-1 items-center gap-4 md:grid-cols-[1fr_auto]">
 		<p class="text-center md:text-left">Ready to begin on your first project?</p>
 		<a href="mailto:contact@email.com" class="variant-filled-primary btn md:btn-lg">
-			<!-- <i class="fa-solid fa-envelope" /> -->
+			<i class="fa-solid fa-envelope" />
 			<span>Contact Me</span>
 		</a>
-	</section>
+	</section> -->
 </div>
 <section>
 	<!-- <div class="relative isolate px-6 pt-14 lg:px-8">
@@ -102,7 +104,7 @@
 				style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
 			></div>
 		</div> -->
-	<div class="lg:py-26 sm:py-26 mx-auto max-w-2xl py-32">
+	<!-- <div class="lg:py-26 sm:py-26 mx-auto max-w-2xl py-32">
 		<div class="hidden sm:mb-8 sm:flex sm:justify-center">
 			<div
 				class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
@@ -112,12 +114,12 @@
 					<span aria-hidden="true">&rarr;</span></a
 				>
 			</div>
-		</div>
-		<div class="text-center">
-			<!-- <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+		</div> -->
+	<!-- <div class="text-center"> -->
+	<!-- <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
 					Hi, I'm Camie. A full stack data engineer.
 				</h1> -->
-			<h1 class="type-scale-10">
+	<!-- <h1 class="type-scale-10">
 				<span
 					class="bg-gradient-radial from-tertiary-500 to-primary-500 box-decoration-clone bg-clip-text text-transparent"
 				>
@@ -146,7 +148,7 @@
 				>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div
 		class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu blur-3xl sm:top-[calc(100%-30rem)]"
 		aria-hidden="true"
