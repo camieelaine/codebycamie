@@ -1,3 +1,55 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* Global Styles --- */
+
+html,
+body {
+	/* @apply h-full overflow-hidden; */
+}
+
+/* Typography --- */
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.font-heading-token {
+	font-weight: bold;
+}
+.h1 {
+	@apply lg:!text-7xl;
+}
+
+/* Page --- */
+
+/* Define the responsive page container width */
+.page-container {
+	@apply mx-auto max-w-7xl px-4;
+}
+/* Define the responsive padding and spacing values */
+.page-spacing {
+	@apply space-y-10 py-10 md:space-y-20 md:py-20;
+}
+
+/* Horizontal Rules */
+hr {
+	@apply border-primary-500/20;
+}
+/* .all-prose {
+	@apply prose-a:text-primary hover:prose-a:text-accent prose prose-lg lg:prose-xl prose-headings:scroll-mt-16 prose-a:transition;
+} */
+/* Dividers (short lines) */
+.divider {
+	@apply max-w-[100px];
+}
+
+/* Variants --- */
+
+/* A custom variant for ringed card elements */
+.variant-ringed-hollow {
+	@apply !ring-primary-500/20 !bg-transparent backdrop-blur-xl;
+}
