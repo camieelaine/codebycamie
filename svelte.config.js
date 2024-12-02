@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 
@@ -17,6 +18,9 @@ const config = {
 			pages: 'dist',
 			assets: 'dist'
 		}),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/codebycamie' : ''
+		},
 		alias: {
 			'$components/*': './src/lib/components/*',
 			'$data/*': './src/lib/data/*',
