@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { projectCategories } from '$lib/data/projects';
+	import { base } from '$app/paths';
 </script>
 
 <div class="page-container page-spacing">
@@ -20,21 +21,21 @@
 				</header>
 				<div class="grid grid-cols-3 gap-4">
 					{#each category.projects as project}
-						<a
-							href="/projects/{category.path}/{project.slug}"
+						<!-- <a
+							href="{base}/projects/{category.path}/{project.slug}"
 							class="rounded-container-token group aspect-square shadow-xl {project.background}"
+						> -->
+						<img
+							class="aspect-square w-full transition-all duration-[200] group-hover:-translate-y-[101%]"
+							src={project.thumbnail}
+							alt={project.name}
+						/>
+						<span
+							class="flex h-full w-full items-center justify-center group-hover:-translate-y-full"
 						>
-							<img
-								class="aspect-square w-full transition-all duration-[200] group-hover:-translate-y-[101%]"
-								src={project.thumbnail}
-								alt={project.name}
-							/>
-							<span
-								class="flex h-full w-full items-center justify-center group-hover:-translate-y-full"
-							>
-								{project.name}
-							</span>
-						</a>
+							{project.name}
+						</span>
+						<!-- </a> -->
 					{/each}
 				</div>
 			</div>

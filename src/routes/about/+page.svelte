@@ -1,7 +1,8 @@
 <script>
-	import { getImageLink } from '$lib/data/images';
-	import { base } from '$app/paths';
+	//import { getImageLink } from '$lib/data/images';
+	// import { base } from '$app/paths';
 	import KachemakBay from '$images/KachemakBay.png';
+	import { base } from '$app/paths';
 </script>
 
 <div class="page-container page-spacing">
@@ -13,11 +14,11 @@
 	<!-- <hr class="divider" /> -->
 
 	<!-- Banner -->
-	<img
+	<!-- <img
 		class="aspect-[21:9] rounded-container-token w-full bg-black shadow-xl"
-		src={KachemakBay}
+		src={base + KachemakBay}
 		alt="banner"
-	/>
+	/> -->
 
 	<!-- <hr class="divider" /> -->
 
@@ -65,7 +66,7 @@
 
 	<!-- Resume -->
 	<section class="text-center">
-		<a href="/about" class="variant-filled-primary btn btn-lg">
+		<a href="{base}/about" class="variant-filled-primary btn btn-lg">
 			<i class="fa-solid fa-download"></i>
 			<!-- <span>Download Resume</span> -->
 		</a>

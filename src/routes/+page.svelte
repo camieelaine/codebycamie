@@ -21,11 +21,11 @@
 		</div>
 		<!-- src="https://source.unsplash.com/mPGSvqHAqTU/400x400" -->
 		<!-- {getImageLink({ id: 'mPGSvqHAqTU', w: 400, h: 400 })} -->
-		<img
+		<!-- <img
 			class="order-1 aspect-square w-32 overflow-hidden rounded-full shadow-xl md:order-2 md:w-[400px]"
-			src={CamieSkiingHead}
+			src={base + CamieSkiingHead}
 			alt="CamiePhoto"
-		/>
+		/> -->
 	</header>
 
 	<!-- <hr class="divider" /> -->
