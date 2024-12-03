@@ -15,11 +15,17 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
 		adapter: adapter({
-			pages: 'dist',
-			assets: 'dist'
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true,
+			fallbacK: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/codebycamie' : ''
+			base: process.argv.includes('dev') ? '' : '/codebycamie'
 		},
 		alias: {
 			'$components/*': './src/lib/components/*',

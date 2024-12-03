@@ -4,6 +4,7 @@
 	import Header from '$components/Header.svelte';
 	import Nav from '$components/Nav.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	export const prerender = true;
 </script>
 
 <div>
