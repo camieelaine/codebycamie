@@ -1,5 +1,6 @@
 <script>
 	import { getImageLink } from '$lib/data/images';
+	import { base } from '$app/paths';
 </script>
 
 <div class="page-container page-spacing">
@@ -13,7 +14,7 @@
 	<!-- Banner -->
 	<img
 		class="aspect-[21:9] rounded-container-token w-full bg-black shadow-xl"
-		src="src/lib/images/KachemakBay.png"
+		src="{base}/src/lib/images/KachemakBay.png"
 		alt="banner"
 	/>
 

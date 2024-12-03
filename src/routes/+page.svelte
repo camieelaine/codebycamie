@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Code by Camie</title>
 	<meta name="description" content="About Camie DeCovich" />
@@ -18,7 +22,7 @@
 		<!-- {getImageLink({ id: 'mPGSvqHAqTU', w: 400, h: 400 })} -->
 		<img
 			class="order-1 aspect-square w-32 overflow-hidden rounded-full shadow-xl md:order-2 md:w-[400px]"
-			src="/src/lib/images/CamieSkiingHead.jpeg"
+			src="{base}/src/lib/images/CamieSkiingHead.jpeg"
 			alt="CamiePhoto"
 		/>
 	</header>
