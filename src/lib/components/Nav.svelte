@@ -17,10 +17,10 @@
 	// }
 
 	let links = [
-		{ href: `/`, title: `Home` },
-		{ href: `/about`, title: `About` },
+		{ href: base + `/`, title: `Home` },
+		{ href: base + `/about`, title: `About` },
 		// { href: `{base}/projects`, title: `Projects` },
-		{ href: `/resume`, title: `Resume` }
+		{ href: base + `/resume`, title: `Resume` }
 	];
 </script>
 
