@@ -1,7 +1,7 @@
 <script>
 	//import { getImageLink } from '$lib/data/images';
 	// import { base } from '$app/paths';
-	import KachemakBay from '$images/KachemakBay.png';
+	//import KachemakBay from '$images/KachemakBay.png';
 	import { base } from '$app/paths';
 </script>
 

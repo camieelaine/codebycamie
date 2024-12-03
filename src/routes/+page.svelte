@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import CamieSkiingHead from '$images/CamieSkiingHead.jpeg';
+	//import CamieSkiingHead from '$images/CamieSkiingHead.jpeg';
 </script>
 
 <svelte:head>
