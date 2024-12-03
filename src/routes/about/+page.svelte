@@ -1,5 +1,5 @@
 <script>
-	//import { getImageLink } from '$lib/data/images';
+	import { getImageLink } from '$lib/data/images';
 	// import { base } from '$app/paths';
 	//import KachemakBay from '$images/KachemakBay.png';
 	import { base } from '$app/paths';
@@ -14,6 +14,11 @@
 	<!-- <hr class="divider" /> -->
 
 	<!-- Banner -->
+	<img
+		class="aspect-[21:9] rounded-container-token w-full overflow-hidden bg-black shadow-xl"
+		src={getImageLink({ id: 'KachemakBay', w: 1280, h: 512 })}
+		alt="banner"
+	/>
 	<!-- <img
 		class="aspect-[21:9] rounded-container-token w-full bg-black shadow-xl"
 		src={base + KachemakBay}

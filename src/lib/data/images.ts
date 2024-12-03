@@ -18,10 +18,20 @@ type ImageLinkArgs = {
 /** Retreive the desired image by ID at the desired height/width.  */
 export function getImageLink({ id, w, h, max }: ImageLinkArgs): string {
 	const path = images[id].raw;
-	return `${path}&w=${w}&h=${h}&auto=format&fit=${max ? 'max' : 'crop'}`;
+	return `${path}`;
+
+	// return `${path}&w=${w}&h=${h}&auto=format&fit=${max ? 'max' : 'crop'}`;
 }
 
 export const images = {
+	// Portrait of Camie
+	CamieProfile: {
+		raw: 'https://res.cloudinary.com/dyvgvgfo5/image/upload/v1733253174/CamieSkiingHead_ncpziv.jpg'
+	},
+	// Pic of Kachemak Bay
+	KachemakBay: {
+		raw: 'https://res.cloudinary.com/dyvgvgfo5/image/upload/v1733253180/KachemakBay_apcksc.png'
+	},
 	// Portrait of Woman
 	mPGSvqHAqTU: {
 		raw: 'https://images.unsplash.com/photo-1609175858596-198e97287a07?ixlib=rb-4.0.3'

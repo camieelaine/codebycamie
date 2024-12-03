@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { getImageLink } from '$lib/data/images';
 	//import CamieSkiingHead from '$images/CamieSkiingHead.jpeg';
 </script>
 
@@ -19,7 +20,11 @@
 			</p>
 			<!-- <Social /> -->
 		</div>
-		<!-- src="https://source.unsplash.com/mPGSvqHAqTU/400x400" -->
+		<img
+			class="order-1 aspect-square w-32 overflow-hidden rounded-full shadow-xl md:order-2 md:w-[400px]"
+			src={getImageLink({ id: 'CamieProfile', w: 400, h: 400 })}
+			alt="CamieProfile"
+		/>
 		<!-- {getImageLink({ id: 'mPGSvqHAqTU', w: 400, h: 400 })} -->
 		<!-- <img
 			class="order-1 aspect-square w-32 overflow-hidden rounded-full shadow-xl md:order-2 md:w-[400px]"
