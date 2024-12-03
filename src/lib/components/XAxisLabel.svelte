@@ -1,5 +1,5 @@
 <!-- XAxisLabel.svelte -->
-<script land="ts">
+<script lang="ts">
 	let {
 		width,
 		height,
